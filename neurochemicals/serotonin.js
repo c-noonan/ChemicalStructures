@@ -87,6 +87,6 @@ document.addEventListener("DOMContentLoaded", function(){
     const description2 = canvasEl.getContext("2d");
     description.fillStyle = "black";
     description.font = 8 + "pt Arial ";
-    description2.fillText("https://www.healthline.com/health/mental-health/serotonin#functions", 0, 430);
+    description2.fillText("https://www.healthline.com/health/mental-health/serotonin#functions", 0, 450);
 
 });
