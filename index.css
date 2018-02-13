@@ -1,0 +1,84 @@
+.header {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4d6d9a;
+    color: white;
+}
+
+#title {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.07em;
+}
+
+.main {
+    background-color: #5F6366;
+    display: flex;
+}
+
+.about {
+    background-color: #5F6366;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.07em;
+    border: 5px solid #99CED3;
+    border-radius: 4px;
+    width: 20%;
+    padding: 8px;
+    margin: 20px;
+    margin-left: 40px;
+    height: 100px;
+}
+
+.canvas-element {
+    background-color: white;
+    border: 5px solid #edb5bf;
+    border-radius: 4px;
+    margin: 20px;
+    margin-right: 40px;
+    display: flex;
+    width: 65%;
+}
+
+#list {
+    float: left;
+    width: 30%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.07em;
+    padding: 10px;
+    /* border-right: 1px solid black; */
+}
+
+#list p {
+    padding: 15px 5px;
+}
+
+#list p:hover {
+    color: white;
+    background-color: #669fbd;
+}
+
+#canvas {
+    width: 60%;
+    max-width: 500px;
+    min-width: 300px;
+}
+
+.footer {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4d6d9a;
+    color: white;
+}
+
+.footer img {
+    width: 45px;
+    height: 45px;
+    padding: 0px 50px;
+}
