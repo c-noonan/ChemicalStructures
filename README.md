@@ -40,7 +40,7 @@ Main scripts involved in the project:
 
 Day 1: Setup project. Get all files necessary created with bare skeletons to be filled in when necessary. Figure out how to connect to the public API and test to make sure what information you're receiving, what format it is in, and how it can be broken down into the pieces needed for the project. 
 
-- [ ] Get wepack up and running
+- [ ] Get webpack up and running
 - [ ] Test foreign API
 - [ ] Complete enough styling to render basic functionality on the page.
 
