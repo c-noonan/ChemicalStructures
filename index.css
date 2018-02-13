@@ -42,7 +42,7 @@
     margin: 20px;
     margin-right: 40px;
     display: flex;
-    width: 65%;
+    width: 70%;
 }
 
 #list {
@@ -64,7 +64,7 @@
 }
 
 #canvas {
-    width: 60%;
+    width: 65%;
     max-width: 500px;
     min-width: 300px;
 }
