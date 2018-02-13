@@ -78,15 +78,15 @@ document.addEventListener("DOMContentLoaded", function(){
     const description = canvasEl.getContext("2d");
     description.fillStyle = "black";
     description.font = 12 + "pt Arial ";
-    description.fillText("Serotonin impacts every part of your body, from your emotions to your", 0, 310);
-    description.fillText("motor skills. Serotonin is considered a natural mood stabilizer.", 0, 330);
-    description.fillText("It’s the chemical that helps with sleeping, eating, and digesting.", 0, 350);
-    description.fillText("Serotonin also helps reduce depression, regulate anxiety, heal wounds,", 0, 370);
-    description.fillText("stimulate nausea, and maintain bone health", 0, 390);
+    description.fillText("Serotonin impacts every part of your body, from your emotions to your", 0, 330);
+    description.fillText("motor skills. Serotonin is considered a natural mood stabilizer.", 0, 350);
+    description.fillText("It’s the chemical that helps with sleeping, eating, and digesting.", 0, 370);
+    description.fillText("Serotonin also helps reduce depression, regulate anxiety, heal wounds,", 0, 390);
+    description.fillText("stimulate nausea, and maintain bone health", 0, 410);
     
     const description2 = canvasEl.getContext("2d");
     description.fillStyle = "black";
     description.font = 8 + "pt Arial ";
-    description2.fillText("https://www.healthline.com/health/mental-health/serotonin#functions", 0, 410);
+    description2.fillText("https://www.healthline.com/health/mental-health/serotonin#functions", 0, 430);
 
 });
