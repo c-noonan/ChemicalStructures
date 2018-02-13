@@ -3,11 +3,6 @@ document.addEventListener("DOMContentLoaded", function() {
   canvasEl.width = 500;
   canvasEl.height = 500;
 
-  const dopamine = canvasEl.getContext("2d");
-  dopamine.fillStyle = "black";
-  dopamine.font = 30 + "pt Arial ";
-  dopamine.fillText("Serotonin", 70, 60);
-
   const oxygen = canvasEl.getContext("2d");
   oxygen.fillStyle = "black";
   oxygen.font = 20 + "pt Arial ";
