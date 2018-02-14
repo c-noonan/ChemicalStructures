@@ -1,4 +1,4 @@
-# ChemicalStructures - A tool for viewing chemicals in the brain
+# NeurotransmitterChemicalStructures - A tool for viewing chemicals in the brain
 
 ## Background and Overview
 
