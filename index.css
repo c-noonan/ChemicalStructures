@@ -25,6 +25,7 @@
     background-color: #5F6366;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
     letter-spacing: 0.07em;
     border: 5px solid #99CED3;
     border-radius: 4px;
@@ -32,7 +33,7 @@
     padding: 8px;
     margin: 20px;
     margin-left: 40px;
-    height: 100px;
+    height: 100%;
 }
 
 .canvas-element {
