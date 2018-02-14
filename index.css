@@ -52,7 +52,6 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: 0.07em;
     padding: 10px;
-    /* border-right: 1px solid black; */
 }
 
 #list p {
@@ -68,6 +67,7 @@
     width: 65%;
     max-width: 500px;
     min-width: 300px;
+    margin-left: 20px;
 }
 
 .footer {
