@@ -1,4 +1,4 @@
-const serotonin = function(){
+function serotonin(){
     const canvasEl = document.getElementById("canvas");
         canvasEl.width = 500;
         canvasEl.height = 500;

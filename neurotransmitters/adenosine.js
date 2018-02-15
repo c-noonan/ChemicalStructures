@@ -1,4 +1,4 @@
-const adenosine = function() {
+function adenosine() {
   const canvasEl = document.getElementById("canvas");
     canvasEl.width = 500;
     canvasEl.height = 500;

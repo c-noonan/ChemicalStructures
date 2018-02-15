@@ -1,4 +1,4 @@
-const acetylcholine = function() {
+function acetylcholine() {
 
   const canvasEl = document.getElementById("canvas");
     canvasEl.width = 500;

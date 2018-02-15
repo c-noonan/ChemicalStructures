@@ -1,4 +1,4 @@
-const histamine = function() {
+function histamine() {
     const canvasEl = document.getElementById("canvas");
         canvasEl.width = 500;
         canvasEl.height = 500;

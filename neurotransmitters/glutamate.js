@@ -1,4 +1,4 @@
-const glutamate = function() {
+function glutamate() {
     const canvasEl = document.getElementById("canvas");
         canvasEl.width = 500;
         canvasEl.height = 500;
