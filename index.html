@@ -23,22 +23,31 @@
                 important to biological functionality.
             </p>
         </section>
+
         <section class='canvas-element'>
             <section id='list'>
-                <p>Acetylcholine</p>
-                <p>Adenosine</p>
-                <p>Adrenaline</p>
-                <p>Dopamine</p>
-                <p>GABA</p>
-                <p>Glutamate</p>
-                <p>Glycine</p>
-                <p>Histamine</p>
-                <p>Norepinephrine</p>
-                <p>Serotonin</p>
+                <button onclick="loadJS('./neurotransmitters/acetylcholine.js');">Acetylcholine</button>
+                <button onclick="loadJS('./neurotransmitters/adenosine.js');">Adenosine</button>
+                <button onclick="loadJS('./neurotransmitters/adrenaline.js');">Adrenaline</button>
+                <button onclick="loadJS('./neurotransmitters/dopamine.js');">Dopamine</button>
+                <button onclick="loadJS('./neurotransmitters/GABA.js');">GABA</button>
+                <button onclick="loadJS('./neurotransmitters/glutamate.js');">Glutamate</button>
+                <button onclick="loadJS('./neurotransmitters/glycine.js');">Glycine</button>
+                <button onclick="loadJS('./neurotransmitters/histamine.js');">Histamine</button>
+                <button onclick="loadJS('./neurotransmitters/norepinephrine.js');">Norepinephrine</button>
+                <button onclick="loadJS('./neurotransmitters/serotonin.js');">Serotonin</button>
             </section>
             <canvas id='canvas'></canvas>
         </section>
-        <script type="application/javascript" src="./neurotransmitters/adenosine.js"></script>
+
+        <script type="application/javascript">
+            function loadJS(file) {
+                let jsElm = document.createElement("script");
+                jsElm.type = "application/javascript";
+                jsElm.src = file;
+                document.body.appendChild(jsElm);
+            }
+        </script>
 
     </main>
 

@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+const adenosine = function() {
   const canvasEl = document.getElementById("canvas");
     canvasEl.width = 500;
     canvasEl.height = 500;
@@ -140,4 +140,6 @@ document.addEventListener("DOMContentLoaded", function() {
     description2.font = 8 + "pt Arial ";
     description2.fillText("https://pubchem.ncbi.nlm.nih.gov/compound/adenosine#section=Top", 0, 470);
 
-});
+};
+
+adenosine();

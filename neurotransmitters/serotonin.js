@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function(){
+const serotonin = function(){
     const canvasEl = document.getElementById("canvas");
         canvasEl.width = 500;
         canvasEl.height = 500;
@@ -89,4 +89,6 @@ document.addEventListener("DOMContentLoaded", function(){
         description.font = 8 + "pt Arial ";
         description2.fillText("https://www.healthline.com/health/mental-health/serotonin#functions", 0, 450);
 
-});
+};
+
+serotonin();

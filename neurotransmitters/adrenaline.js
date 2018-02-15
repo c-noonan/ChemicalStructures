@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+const adrenaline = function() {
     const canvasEl = document.getElementById("canvas");
         canvasEl.width = 500;
         canvasEl.height = 500;
@@ -106,4 +106,6 @@ document.addEventListener("DOMContentLoaded", function() {
         description2.font = 8 + "pt Arial ";
         description2.fillText("https://www.hormone.org/hormones-and-health/hormones/adrenaline", 0, 490);
         
-});
+};
+
+adrenaline();

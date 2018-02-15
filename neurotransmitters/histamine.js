@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+const histamine = function() {
     const canvasEl = document.getElementById("canvas");
         canvasEl.width = 500;
         canvasEl.height = 500;
@@ -72,4 +72,6 @@ document.addEventListener("DOMContentLoaded", function() {
         description2.fillText("https://www.britannica.com/science/histamine", 0, 450);
 
 
-});
+};
+
+histamine();

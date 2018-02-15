@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+const glutamate = function() {
     const canvasEl = document.getElementById("canvas");
         canvasEl.width = 500;
         canvasEl.height = 500;
@@ -99,4 +99,6 @@ document.addEventListener("DOMContentLoaded", function() {
         description2.font = 8 + "pt Arial ";
         description2.fillText("https://neurotransporter.org/glutamate.html", 0, 470);
 
-});
+};
+
+glutamate();

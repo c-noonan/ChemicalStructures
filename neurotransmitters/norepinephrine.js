@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+const norepinephrine = function() {
     const canvasEl = document.getElementById("canvas");
         canvasEl.width = 500;
         canvasEl.height = 500;
@@ -99,4 +99,6 @@ document.addEventListener("DOMContentLoaded", function() {
     description2.font = 8 + "pt Arial ";
     description2.fillText("https://www.britannica.com/science/norepinephrine", 0, 490);
     
-});
+};
+
+norepinephrine();
