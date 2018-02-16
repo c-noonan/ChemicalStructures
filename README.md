@@ -8,30 +8,44 @@ ChemicalStructures is a interactive tool that allows the user to click on variou
 
 ## Architecture and Technologies
 
-This project features vanilla JavaScript, HTML5 Cavas, CSS3, and HTML.
+This project features vanilla JavaScript for the general logic of the interactive tool, HTML5 Canvas to render each chemical structure, and CSS3 and HTML for styling purposes and organization.
 
-## Implementation Timeline
+![Website](https://i.imgur.com/liJ0UBt.png)
 
-Day 1: Setup project. Get all files necessary created with bare skeletons to be filled in when necessary. Start to manipulate Canvas to figure out how to draw each structure.
+## Features
 
-- [ ] Get Canvas working enough to know how to draw out/render each chemical structure
-- [ ] Complete enough styling to render basic functionality on the page.
+ - Site offers interactive animation between each biochemical
+ - CSS holds specified styling depending on which biochemical the user is looking at
+ - JavaScript dynamically loads each script file depending on which biochemical the user clicked on:
 
-Day 2: Make sure all the information necesary for the project is rendered accurately. Decide how many bichemicals should be featured on the site. Finish at leaast half of the Canvas drawings, including descriptions about each neurotransmitter.
+    ``` 
+    <section class='canvas-element'>
+            <section class='list-elements'>
+                <p><button id='list' onclick="loadJS('./neurotransmitters/acetylcholine.js');">Acetylcholine</button></p>
+                <p><button id='list' onclick="loadJS('./neurotransmitters/adenosine.js');">Adenosine</button></p>
+                <p><button id='list' onclick="loadJS('./neurotransmitters/adrenaline.js');">Adrenaline</button></p>
+                <p><button id='list' onclick="loadJS('./neurotransmitters/dopamine.js');">Dopamine</button></p>
+                <p><button id='list' onclick="loadJS('./neurotransmitters/GABA.js');">GABA</button></p>
+                <p><button id='list' onclick="loadJS('./neurotransmitters/glutamate.js');">Glutamate</button></p>
+                <p><button id='list' onclick="loadJS('./neurotransmitters/glycine.js');">Glycine</button></p>
+                <p><button id='list' onclick="loadJS('./neurotransmitters/histamine.js');">Histamine</button></p>
+                <p><button id='list' onclick="loadJS('./neurotransmitters/norepinephrine.js');">Norepinephrine</button></p>
+                <p><button id='list' onclick="loadJS('./neurotransmitters/serotonin.js');">Serotonin</button></p>
+            </section>
+            <canvas id='canvas'></canvas>
+        </section>
 
-- [ ] Complete half of chemical structures.
-- [ ] Style enough to have one chemical structure rendered on the page. 
+    <script type="application/javascript">
+        function loadJS(file) {
+        let jsElm = document.createElement("script");
+        jsElm.type = "application/javascript";
+        jsElm.src = file;
+        document.body.appendChild(jsElm);
+        }
+    </script>
+    ```
 
-Day 3: Finish rendering all information. Make sure all structures/descriptions are drawn and rendered. Style completely and make sure entire website looks good and has easy UX/UI.
-
-- [ ] Complete remaining files necessary for project to be fully functional.
-- [ ] Make sure website looks good and is layed out in a simple, consise manner.
-
-Day 4: Complete fully, including any bonus features given enough time. Style is complete and professional; everything works how it's supposed to and is easy to navigate and use.
-
-- [ ] Complete all styling
-- [ ] Complete any remaining files necessary for the logic of the application, including JS logic for switching between scripts on index.html.
-- [ ] Potentially finish any bonus features of the application
+    This shows the javascript file is only loaded and displayed when the user clicks on the specific biochemical that they would like to learn more about. By imbedding the JavaScript into the HTML, it allows the user more control over what they see on the page.
 
 ## Bonus features
  
