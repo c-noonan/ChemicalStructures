@@ -1,6 +1,6 @@
 # NeurotransmitterChemicalStructures - A tool for viewing chemicals in the brain
 
-![LIVE](https://c-noonan.github.io/ChemicalStructures/)
+[LIVE](https://c-noonan.github.io/ChemicalStructures/)
 
 ## Background and Overview
 
