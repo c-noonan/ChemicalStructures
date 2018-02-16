@@ -1,38 +1,14 @@
 # NeurotransmitterChemicalStructures - A tool for viewing chemicals in the brain
 
+![LIVE](https://c-noonan.github.io/ChemicalStructures/)
+
 ## Background and Overview
 
-ChemicalStructures is a interactive tool that allows the user to click on various, prelisted chemicals that exist in the brain and receive information about what the structure looks like and various facts about it.
-
-## Functionality & MVP
-
-Users will be able to:
-- [ ] Read a short description about what the biochemical does
-- [ ] View the chemical structure of it
-- [ ] Click through a list of multiple chemicals(neurotransmitters) found in the brain
- 
-Also:
-- [ ] A short about section that remains stationary to the side of the list telling the user how to interact with the tool and what to expect.
-- [ ] Links to my github repo and linkedIn page
- 
-## Wireframes
- 
-The app will be relatively basic in it's setup. It will consist of a single page that has a header with the title of the project, a main section that will have two parts: one part on the left side that describes what the user can do on the site and how to navigate it, and the second part on the right hand side that contains the list of biochemicals that when clicked, will render the structure of the chosen biochemical. The bottom will have a footer containing links to both my linkedIn and github repo.
-
-![Wireframe](https://i.imgur.com/7HfUoL6.png)
+ChemicalStructures is a interactive tool that allows the user to click on various, prelisted chemicals that exist in the brain and receive information about what the structure looks like and various facts about it. Users can read a short description about what the biochemical does, view the chemical structure of it, and click through a list of multiple chemicals(neurotransmitters) found in the brain
 
 ## Architecture and Technologies
 
-This project will be implemented with the following technologies:
-
-- [ ] Vanilla JavaScript for overall logic
-- [ ] HTML Canvas to render each chemical structure
-- [ ] Basic CSS and HTML for style/organization
-
-Main scripts involved in the project:
-
-- [ ] a folder where all the .js files are kept for each neurotransmitter
-- [ ] an index HTML for the page organization and to contain all the componenets of the page, including logic of switching between js scripts
+This project features vanilla JavaScript, HTML5 Cavas, CSS3, and HTML.
 
 ## Implementation Timeline
 
